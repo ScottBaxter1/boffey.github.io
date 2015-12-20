@@ -1,0 +1,20 @@
+# Site settings
+title: "Beer, Code & Geekery"
+header-img: img/home-bg.jpg
+email: michael@boffey.io
+description: "A experient in writing for someone who cannot punctuate a sentance"
+baseurl: ""
+url: "http://boffey.io"
+twitter_username: boffeyio
+github_username:  boffey
+facebook_username:  
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+paginate_path: "/blog/page/:num/"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: ["jekyll-paginate"]
